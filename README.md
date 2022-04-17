@@ -1,0 +1,5 @@
+# PSYoutubeDownloader
+
+This is a couple of scripts I wrote to work with the youtube-dl executable and ffmpeg. They will both fetch songs from the designated youtube playlist and download them to your local host. It will also automatically sync songs downloaded to any drive plugged in that has a music folder. Feel free to use it however you want, there are no warranties and it is not guaranteed to work. You will need to provide the youtube-dl executable and the ffmpeg library yourself and put it in the root of this project in order for it to work. There is no error handling, sorry not sorry!
+
+NOTE: This has only been tested on WINDOWS PowerShell 5.1 and 7.*, and has not been validated on Linux PWSH. It SHOULD work on linux but the sync script will probably break due to how dynamic pathing is being handled for now. If it works on linux let me know! 
